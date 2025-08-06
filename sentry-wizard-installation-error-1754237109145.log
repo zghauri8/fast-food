@@ -1,0 +1,30 @@
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\Z:\\untitled\\fast-food\\node_modules\\@sentry-internal',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'Z:\untitled\fast-food\node_modules\@sentry-internal\replay\build\npm\types'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'Z:\\untitled\\fast-food\\node_modules\\@sentry-internal\\replay\\build\\npm\\types'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\Z:\\untitled\\fast-food\\node_modules\\@sentry',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'Z:\untitled\fast-food\node_modules\@sentry\react-native\android\src\oldarch\java\io\sentry\react\replay'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'Z:\\untitled\\fast-food\\node_modules\\@sentry\\react-native\\android\\src\\oldarch\\java\\io\\sentry\\react\\replay'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ECONNRESET
+npm error syscall read
+npm error errno -4077
+npm error network read ECONNRESET
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: C:\Users\PMYLS\AppData\Local\npm-cache\_logs\2025-08-03T16_02_16_187Z-debug-0.log
